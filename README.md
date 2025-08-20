@@ -1,16 +1,22 @@
-# expense_tracker
+# Flutter Expense Tracker 💰
 
-A new Flutter project.
+A simple **Expense Tracker App** built with Flutter, **Provider** for state management, and **Hive** for local storage.
 
-## Getting Started
+## 🚀 Features
+- Add income & expense transactions
+- Categorize expenses (Food, Transport, Shopping, etc.)
+- Save data locally with Hive
+- State management with Provider
+- Clean & structured Flutter code
 
-This project is a starting point for a Flutter application.
+## 🛠️ Technologies
+- Flutter
+- Provider
+- Hive (local storage)
+- Intl (date formatting)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ▶️ How to Run
+```bash
+flutter pub get
+flutter pub run build_runner build
+flutter run
